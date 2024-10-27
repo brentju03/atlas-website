@@ -11,14 +11,15 @@ html {
 h2,
 h3,
 h4 {
-  font-family: "Raleway", sans-serif;
+  font-family: "Roca One", sans-serif;
 }
 h2 {
-  text-transform: uppercase;
+  font-family: "Roca One";
+  text-transform: lowercase;
   margin: 0 0 20px;
   font-weight: 800;
-  font-size: 36px;
-  color: #333;
+  font-size: 39px;
+  color: #c49766;
 }
 h3 {
   font-size: 20px;
@@ -76,23 +77,23 @@ hr {
   transition: all 0.8s;
 }
 #menu.navbar-default {
-  background-color: #fff;
+  background-color: rgba(0, 0, 0, .8);
   border-color: rgba(231, 231, 231, 0);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
 }
 #menu a.navbar-brand {
-  font-family: "Raleway", sans-serif;
-  font-size: 24px;
+  font-family: "Roca One";
+  font-size: 30px;
   font-weight: 700;
-  color: #333;
-  text-transform: uppercase;
+  color: #c49766;
+  text-transform: lowercase;
 }
 #menu.navbar-default .navbar-nav > li > a {
-  font-family: "Lato", sans-serif;
-  text-transform: uppercase;
-  color: #555;
-  font-size: 15px;
-  font-weight: 400;
+  font-family: "Monserrat", sans-serif;
+  text-transform: lowercase;
+  color: #c49766  ;
+  font-size: 16px;
+  font-weight: 700;
   padding: 8px 2px;
   border-radius: 0;
   margin: 9px 20px 0;
@@ -104,7 +105,7 @@ hr {
   bottom: -1px;
   width: 0;
   height: 2px;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  background: linear-gradient(to right, #dc8f47 0%, #b5d2f1 100%);
   content: "";
   transition: width 0.2s;
 }
@@ -125,7 +126,7 @@ hr {
   bottom: -1px !important;
   width: 100% !important;
   height: 2px !important;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%) !important;
+  background: linear-gradient(to right, #dc8f47 0%, #b5d2f1 100%) !important;
   content: "" !important;
   transition: width 0.2s !important;
 }
@@ -163,11 +164,11 @@ hr {
   font-size: 18px;
 }
 .btn-custom {
-  font-family: "Raleway", sans-serif;
+  font-family: "Monserrat", sans-serif;
   text-transform: uppercase;
-  color: #fff;
-  background-color: #5ca9fb;
-  background-image: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+  color: #292826;
+  background-color: #eeecde;
+  /* background-image: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%); */
   padding: 14px 34px;
   letter-spacing: 1px;
   margin: 0;
@@ -184,7 +185,7 @@ hr {
 .btn-custom.active {
   color: #fff;
   background-image: none;
-  background-color: #6372ff;
+  background-color: #534f42;
 }
 .btn:active,
 .btn.active {
@@ -208,7 +209,7 @@ a:focus,
   display: table;
   width: 100%;
   padding: 0;
-  background: url(../img/intro-bg.jpg) center center no-repeat;
+  background: url(../img/intro.jpg) center center no-repeat;
   background-color: #e5e5e5;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -219,11 +220,11 @@ a:focus,
   background: rgba(0, 0, 0, 0.2);
 }
 .intro h1 {
-  font-family: "Raleway", sans-serif;
-  color: #fff;
+  font-family: "Roca One";
+  color: #eeecde;
   font-size: 82px;
   font-weight: 700;
-  text-transform: uppercase;
+  text-transform: lowercase;
   margin-top: 0;
   margin-bottom: 10px;
 }
@@ -232,7 +233,8 @@ a:focus,
   color: #5ca9fb;
 }
 .intro p {
-  color: #fff;
+  color: #eeecde;
+  font: "Monserrat";
   font-size: 22px;
   font-weight: 300;
   line-height: 30px;
@@ -246,7 +248,7 @@ header .intro-text {
 }
 /* Features Section */
 #features {
-  background: #f6f6f6;
+  background: #0b0b0b;
 }
 #features i.fa {
   font-size: 38px;
@@ -309,7 +311,7 @@ header .intro-text {
 }
 /* Services Section */
 #services {
-  padding: 100px 0;
+  padding: 50px 0;
   background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
   color: #fff;
 }
