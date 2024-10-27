@@ -74,6 +74,24 @@
       "name": "David L."
     }
   ],
+  "Process": [
+    {
+      "link": "deliverables/a1.pdf",
+      "title": "A1: Needfinding"
+    },
+    {
+      "link": "deliverables/a2.pdf",
+      "title": "A2: Additional Needfinding, POVs, HMWs, Brainstorming & Experience Prototypes"
+    },
+    {
+      "link": "deliverables/a4.pdf",
+      "title": "A4: Concept Video"
+    },
+    {
+      "link": "deliverables/a5.pdf",
+      "title": "A5: Lo-fi Prototype"
+    }
+  ],
   "Team": [
     {
       "img": "img/team/janice.jpg",
