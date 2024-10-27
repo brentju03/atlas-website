@@ -13,9 +13,13 @@ export const Process = (props) => {
                 <div key={`${d.title}-${i}`} className="col-xs-6 col-md-3">
                   {" "}
                   <h3>{d.title}</h3>
-                  <a href={d.link} target="_blank">
-                    PDF
-                  </a>
+                  {d.link ? (
+                    <a href={d.link} target="_blank">
+                      PDF
+                    </a>
+                  ) : (
+                    <h4>TBD</h4>
+                  )}
                 </div>
               ))
             : "Loading..."}
