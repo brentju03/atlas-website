@@ -1491,6 +1491,9 @@ blockquote ul:last-child,
 blockquote ol:last-child {
   margin-bottom: 0;
 }
+.card {
+  height: 30%;
+}
 blockquote footer,
 blockquote small,
 blockquote .small {
@@ -1705,7 +1708,6 @@ pre code {
 }
 .col-xs-6 {
   width: 50%;
-  height: 30%;
 }
 .col-xs-5 {
   width: 41.66666667%;
