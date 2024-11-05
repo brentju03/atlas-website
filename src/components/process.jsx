@@ -20,6 +20,13 @@ export const Process = (props) => {
                   ) : (
                     <h4>TBD</h4>
                   )}
+                  {d.readme ? (
+                    <a href={d.readme} target="_blank">
+                      README
+                    </a>
+                  ) : (
+                    <div></div>
+                  )}
                 </div>
               ))
             : "Loading..."}

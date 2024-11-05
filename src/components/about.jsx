@@ -13,27 +13,10 @@ export const About = (props) => {
             <div className="about-text">
               <h2>About Atlas</h2>
               <p>{props.data ? props.data.paragraph : "loading..."}</p>
-              {/* <h3>Why Choose Us?</h3>
-              <div className="list-style">
-                <div className="col-lg-6 col-sm-6 col-xs-12">
-                  <ul>
-                    {props.data
-                      ? props.data.Why.map((d, i) => (
-                          <li key={`${d}-${i}`}>{d}</li>
-                        ))
-                      : "loading"}
-                  </ul>
-                </div>
-                <div className="col-lg-6 col-sm-6 col-xs-12">
-                  <ul>
-                    {props.data
-                      ? props.data.Why2.map((d, i) => (
-                          <li key={`${d}-${i}`}> {d}</li>
-                        ))
-                      : "loading"}
-                  </ul>
-                </div>
-              </div> */}
+              <p>Try our Figma prototype </p>
+              <a href="https://www.figma.com/proto/HhfwHkIW8wnoYEMowmHwhV/Atlas-App?node-id=20-414&node-type=canvas&t=ealYu1XLCpQQ0Pou-0&scaling=min-zoom&content-scaling=fixed&page-id=15%3A2278&starting-point-node-id=20%3A414&show-proto-sidebar=1">
+                here!
+              </a>
             </div>
           </div>
         </div>

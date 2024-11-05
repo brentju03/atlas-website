@@ -93,7 +93,8 @@
     },
     {
       "title": "A6: Interactive Med-Fi Prototype",
-      "link": "deliverables/a6.pdf"
+      "link": "deliverables/a6.pdf",
+      "readme": "deliverables/readme.pdf"
     },
     {
       "title": "A8: Interactive High-fi Prototype "
