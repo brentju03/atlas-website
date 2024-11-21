@@ -10,7 +10,10 @@ export const Process = (props) => {
         <div className="row">
           {props.data
             ? props.data.map((d, i) => (
-                <div key={`${d.title}-${i}`} className="col-xs-6 col-md-3 card">
+                <div
+                  key={`${d.title}-${i}`}
+                  className="col-xs-6 col-md-3 card space-between"
+                >
                   {" "}
                   <h3>{d.title}</h3>
                   {d.link ? (
@@ -23,6 +26,13 @@ export const Process = (props) => {
                   {d.readme ? (
                     <a href={d.readme} target="_blank">
                       README
+                    </a>
+                  ) : (
+                    <div></div>
+                  )}
+                  {d.excel ? (
+                    <a href={d.excel} target="_blank">
+                      Excel
                     </a>
                   ) : (
                     <div></div>
