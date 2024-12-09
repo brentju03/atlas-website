@@ -25,7 +25,7 @@ export const Process = (props) => {
                   )}
                   {d.readme ? (
                     <a href={d.readme} target="_blank">
-                      README
+                      {" README"}
                     </a>
                   ) : (
                     <div></div>
@@ -33,6 +33,34 @@ export const Process = (props) => {
                   {d.excel ? (
                     <a href={d.excel} target="_blank">
                       Excel
+                    </a>
+                  ) : (
+                    <div></div>
+                  )}
+                  {d.demo ? (
+                    <a href={d.demo} target="_blank">
+                      {" Prototype Link "}
+                    </a>
+                  ) : (
+                    <div></div>
+                  )}
+                  {d.poster ? (
+                    <a href={d.poster} target="_blank">
+                      {" Poster "}
+                    </a>
+                  ) : (
+                    <div></div>
+                  )}
+                  {d.script ? (
+                    <a href={d.script} target="_blank">
+                      {" Pitch Script "}
+                    </a>
+                  ) : (
+                    <div></div>
+                  )}
+                  {d.video ? (
+                    <a href={d.video} target="_blank">
+                      {" Video Demo "}
                     </a>
                   ) : (
                     <div></div>

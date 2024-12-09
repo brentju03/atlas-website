@@ -97,14 +97,20 @@
       "readme": "deliverables/readme.pdf"
     },
     {
-      "title": "A8: Interactive High-fi Prototype "
+      "title": "A8: Interactive High-fi Prototype ",
+      "demo": "https://expo.dev/accounts/brentju/projects/Atlas/updates/89bda226-48d0-4b88-b842-a7816007c9c3",
+      "link": "deliverables/a8.pdf"
     },
     {
       "title": "A9: Heuristic Evaluation Synthesis",
-      "excel": "deliverables/heuristic.xlsx"
+      "link": "deliverables/heuristic.xlsx"
     },
     {
-      "title": "A10: Poster, Pitch & Demo Video "
+      "title": "A10: Poster, Pitch & Demo Video ",
+      "poster": "deliverables/a10poster.pdf",
+      "script": "deliverables/a10script.pdf",
+      "video": "https://drive.google.com/file/d/1yLl0wEjKFSCB35SiY-Lbwse99QpbRe1r/view?usp=sharing",
+      "link": "a10slide.pdf"
     },
     {
       "title": "A11: Final Report"
