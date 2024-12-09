@@ -39,28 +39,28 @@ export const Process = (props) => {
                   )}
                   {d.demo ? (
                     <a href={d.demo} target="_blank">
-                      {" Prototype Link "}
+                      {"\nPrototype Link"}
                     </a>
                   ) : (
                     <div></div>
                   )}
                   {d.poster ? (
                     <a href={d.poster} target="_blank">
-                      {" Poster "}
+                      {"\nPoster"}
                     </a>
                   ) : (
                     <div></div>
                   )}
                   {d.script ? (
                     <a href={d.script} target="_blank">
-                      {" Pitch Script "}
+                      {"\nPitch Script"}
                     </a>
                   ) : (
                     <div></div>
                   )}
                   {d.video ? (
                     <a href={d.video} target="_blank">
-                      {" Video Demo "}
+                      {"\nVideo Demo"}
                     </a>
                   ) : (
                     <div></div>
